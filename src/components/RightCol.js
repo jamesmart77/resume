@@ -3,6 +3,7 @@ import { Container } from '@lmig/gllt-react-component-library';
 import { Col } from 'react-materialize';
 import Header from './rightCol/Header';
 import Skills from './rightCol/Skills';
+import Experience from './rightCol/Experience';
 import { Slide } from 'react-reveal';
 
 export default function RightCol() {
@@ -12,6 +13,7 @@ export default function RightCol() {
           <Container width={80}>
             <Header />
             <Skills />
+            <Experience />
           </Container>
         </Slide>
       </Col>

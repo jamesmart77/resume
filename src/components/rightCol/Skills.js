@@ -7,7 +7,7 @@ export default function Skills() {
   const skills = [
     {
       "type": "React",
-      "level": 100
+      "level": 95
     },
     {
       "type": "Testing",
@@ -15,7 +15,7 @@ export default function Skills() {
     },
     {
       "type": "Node.Js",
-      "level": 95
+      "level": 90
     },
     {
       "type": "SQL",
@@ -51,7 +51,7 @@ export default function Skills() {
             height="2rem"
             skills={skills}
             colors={colors}
-            animationDelay={1000}
+            animationDelay={500}
             animationDuration={1500}
           />
         </Col>

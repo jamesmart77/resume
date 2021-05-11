@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/resume/static/css/main.a3925f8d.chunk.css",
+    "main.js": "/resume/static/js/main.aab96a7e.chunk.js",
+    "main.js.map": "/resume/static/js/main.aab96a7e.chunk.js.map",
+    "runtime-main.js": "/resume/static/js/runtime-main.bdc9de65.js",
+    "runtime-main.js.map": "/resume/static/js/runtime-main.bdc9de65.js.map",
+    "static/js/2.585b7c5f.chunk.js": "/resume/static/js/2.585b7c5f.chunk.js",
+    "static/js/2.585b7c5f.chunk.js.map": "/resume/static/js/2.585b7c5f.chunk.js.map",
+    "index.html": "/resume/index.html",
+    "static/css/main.a3925f8d.chunk.css.map": "/resume/static/css/main.a3925f8d.chunk.css.map",
+    "static/js/2.585b7c5f.chunk.js.LICENSE.txt": "/resume/static/js/2.585b7c5f.chunk.js.LICENSE.txt",
+    "static/media/bitmojiLeft.038db777.png": "/resume/static/media/bitmojiLeft.038db777.png",
+    "static/media/bitmojiRight.1c78a90c.png": "/resume/static/media/bitmojiRight.1c78a90c.png",
+    "static/media/github.56e6f7d0.jpeg": "/resume/static/media/github.56e6f7d0.jpeg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.bdc9de65.js",
+    "static/js/2.585b7c5f.chunk.js",
+    "static/css/main.a3925f8d.chunk.css",
+    "static/js/main.aab96a7e.chunk.js"
+  ]
+}

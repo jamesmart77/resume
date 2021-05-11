@@ -1,0 +1,11 @@
+@import "./colors";
+
+// external
+@import './materialize/grid';
+@import './materialize/variables';
+
+// components
+@import "./components/app";
+@import "./components/resume";
+@import "./components/rightCol";
+@import "./components/skills";

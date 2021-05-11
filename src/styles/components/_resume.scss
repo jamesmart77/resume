@@ -1,0 +1,17 @@
+@import '../colors';
+
+.resume-container {
+  background-color: white;
+  display: flex;
+  flex: 1 0 auto;
+  margin: 4rem auto !important;
+  padding: 0 !important;
+
+  .wrapper-row {
+    display: flex;
+    flex: 1 0 auto;
+    flex-wrap: wrap;
+    margin-bottom: 0 !important;
+  }
+}
+

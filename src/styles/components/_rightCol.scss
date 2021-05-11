@@ -1,0 +1,36 @@
+@import '../colors';
+
+.right-col {
+  background-color: $liberty-web-gray-5;
+  display: flex;
+  flex: 1 0 auto;
+
+  .job-title {
+    background-color: $liberty-blue-90;
+    padding: 0.5rem 1rem;
+
+    h6 {
+      color: white !important;
+    }
+  }
+
+  .links-row {
+    display: flex;
+    flex-wrap: wrap;
+
+    .link {
+      &-col > a {
+        align-items: center;
+        display: flex;
+        flex: 1 0 auto;
+        justify-content: flex-start;
+      }
+
+      &-icon {
+        margin-right: 0.3rem;
+        width: 2rem;
+      }
+    }
+  }
+}
+

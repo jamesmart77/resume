@@ -1,0 +1,75 @@
+// For additional information on the liberty brand check out the following PDF:
+// https://lippincott.sharefile.com/share/view/0ff1f15b185a43f4
+
+// LIBERTY BRANDING COLORS
+//liberty yellow
+$liberty-yellow-100: #ffd000;
+$liberty-yellow-80: #ffdb50;
+$liberty-yellow-60: #ffe280;
+$liberty-yellow-40: #ffeaa9;
+
+//liberty teal
+$liberty-teal-100: #78e1e1;
+$liberty-teal-80: #99e5ea;
+$liberty-teal-60: #aeeded;
+$liberty-teal-40: #c9f3f4;
+
+//liberty dark teal
+$liberty-dark-teal: #06748c;
+
+//liberty blue
+$liberty-blue-100: #1a1446;
+$liberty-blue-90: #29254f;
+
+//liberty grays
+$liberty-dark-gray: #343741;
+$liberty-web-gray-1: #404040;
+$liberty-web-gray-2: #565656;
+$liberty-web-gray-3: #c0bfc0;
+$liberty-web-gray-4: #e6e6e6;
+$liberty-web-gray-5: #f5f5f5;
+
+//other
+$white: #fff;
+$black: #000;
+$red: #c9282d;
+$link-blue: #039be5;
+$disabled-yellow: rgba(255, 234, 169, 0.7);
+$green: #6c953c;
+$orange: #e5a400;
+$myliberty-orange:  #ecac00;
+
+//THEME BASED ON LIBERTY BRANDING
+//body colors
+$liberty-body-background: $liberty-web-gray-5;
+$liberty-body-container-background: $white;
+$liberty-body-primary-button-background-yellow: $liberty-yellow-100;
+$liberty-body-primary-button-background-teal: $liberty-teal-80;
+$liberty-body-primary-button-text: $liberty-blue-100;
+$liberty-body-secondary-button-background-white: $white; // to be used on grey backgrounds
+$liberty-body-secondary-button-background-gray: $liberty-web-gray-5; // to be used on white backgrounds
+$liberty-body-secondary-button-text: $liberty-dark-teal;
+$liberty-body-active-link-text: $liberty-dark-teal;
+
+
+//liberty notification colors
+$liberty-notification-text: #343741;
+$liberty-notification-success-body: #E1F2E6;
+$liberty-notification-success-border: #03AC63;
+$liberty-notification-info-body: $white;
+$liberty-notification-info-border: #06748C;
+$liberty-notification-error-body: #FFF4F5;
+$liberty-notification-error-border: #E92243;
+
+//nav colors
+$liberty-nav-background: $liberty-yellow-100;
+$liberty-nav-text-blue: $liberty-blue-100;
+$liberty-nav-text-dark-teal: $liberty-dark-teal;
+$liberty-nav-text-black: $black;
+$liberty-nav-primary-button-background-blue: $liberty-blue-100;
+$liberty-nav-primary-button-background-dark-teal: $liberty-dark-teal;
+$liberty-nav-primary-button-text: $white;
+$liberty-nav-secondary-button-background: $white;
+$liberty-nav-secondary-button-text: $liberty-dark-teal;
+$liberty-nav-active-link-text: $liberty-dark-teal;
+

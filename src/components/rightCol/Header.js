@@ -7,7 +7,7 @@ import portfolioImg from '../../images/portfolio.png';
 
 export default function Header() {
   return (
-    <>
+    <div className="header-container">
       <Row>
         <Col s={12}>
           <Typography type="header3" thin>James</Typography>
@@ -55,6 +55,6 @@ export default function Header() {
           </a>
         </Col>
       </Row>
-    </>
+    </div>
   );
 }

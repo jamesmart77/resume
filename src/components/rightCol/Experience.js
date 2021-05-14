@@ -12,13 +12,36 @@ export default function Experience() {
       </Row>
       <Row>
         <Col s={12}>
-          <Typography type="subText" thin>2018 - Present</Typography>
-          <Typography type="header6"className="header-text" >Software Engineer</Typography>
-          <Typography type="subText" className="header-text" thin>Liberty Mutual Insurance</Typography>
-          <Typography type="body" className="body-text">
+          <Typography type="subText" thin className="secondary-text">2018 - Present</Typography>
+          <Typography type="header6"className="header-text">Software Engineer</Typography>
+          <Typography type="subText" className="header-text secondary-text" thin>Liberty Mutual Insurance</Typography>
+          <Typography type="body" className="body-text secondary-text">
             Specialized in MERN full stack for web apps and help lead the team in development,
             well-architected design principles, innovation disciplines, and reinforcing relationships
             built on trust.
+          </Typography>
+        </Col>
+      </Row>
+      <Row>
+        <Col s={12}>
+          <Typography type="subText" thin className="secondary-text">2015 - 2018</Typography>
+          <Typography type="header6"className="header-text">IT Project Coordinator / Data Analyst</Typography>
+          <Typography type="subText" className="header-text secondary-text" thin>Liberty Mutual Insurance</Typography>
+          <Typography type="body" className="body-text secondary-text">
+            Automated Liberty Gateway non-employee management process and assisted in automation of Supplier
+            Relationship management processes. Also worked to support organization's agile transformation and
+            present metrics for data driven decisions.
+          </Typography>
+        </Col>
+      </Row>
+      <Row>
+        <Col s={12}>
+          <Typography type="subText" thin className="secondary-text">2013-2015</Typography>
+          <Typography type="header6"className="header-text">Project Analyst</Typography>
+          <Typography type="subText" className="header-text secondary-text" thin>Bottomline Technologies</Typography>
+          <Typography type="body" className="body-text secondary-text">
+            Worked with Digital Banking clients for enterprise software implementations and configurations. Also
+            made concerted efforts to automate resource management reporting for program lines.
           </Typography>
         </Col>
       </Row>

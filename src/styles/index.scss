@@ -24,6 +24,17 @@ body {
   .center-align {
     text-align: center;
   }
+
+  .secondary-text {
+    color: $liberty-web-gray-2;
+  }
+
+  .section-header {
+    i {
+      font-size: 1.75rem !important;
+    }
+  }
+
 }
 
 

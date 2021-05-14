@@ -34,3 +34,11 @@
   }
 }
 
+@media (max-width: 992px) {
+  .right-col {
+    .col-container {
+      width: 90% !important;
+    }
+  }
+}
+

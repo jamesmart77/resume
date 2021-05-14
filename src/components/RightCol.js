@@ -10,7 +10,7 @@ export default function RightCol() {
   return (
       <Col m={6} s={12} className="right-col push-m6">
         <Slide right>
-          <Container width={80}>
+          <Container width={80} className="col-container">
             <Header />
             <Skills />
             <Experience />

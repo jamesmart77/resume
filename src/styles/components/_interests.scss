@@ -9,19 +9,6 @@
     text-align: center;
   }
 
-  .wrapper {
-    border: 2px solid $liberty-dark-teal;
-    border-radius: 50%;
-    height: 5.5rem;
-    margin-right: 1rem;
-    padding: 1rem 0.75rem;
-    width: 5.5rem;
-
-    i {
-      color: $liberty-web-gray-2;
-    }
-  }
-
   .lg-wrapper {
     display: flex;
     flex-wrap: wrap;
@@ -41,5 +28,4 @@
       margin-bottom: 0.5rem;
     }
   }
-
 }

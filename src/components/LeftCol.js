@@ -11,7 +11,7 @@ export default function LeftCol() {
   return (
       <Col m={6} s={12} className="left-col pull-m6">
         <Slide left>
-          <Container width={80}>
+          <Container width={80} className="col-container">
             <Education />
             <Awards />
             <Expertise />

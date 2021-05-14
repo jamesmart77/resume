@@ -13,19 +13,19 @@ export default function Interests() {
       </Row>
       <Row>
         <Col s={4} className="col-wrapper">
-          <div className="wrapper">
+          <div className="lg-wrapper">
             <Icon type="hiking" />
             <Typography type="subText">Hiking</Typography>
           </div>
         </Col>
         <Col s={4} className="col-wrapper">
-          <div className="wrapper">
+          <div className="lg-wrapper">
             <Icon type="sailing" />
             <Typography type="subText">Boating</Typography>
           </div>
         </Col>
         <Col s={4} className="col-wrapper">
-          <div className="wrapper">
+          <div className="lg-wrapper">
             <Icon type="menu_book" />
             <Typography type="subText">Reading</Typography>
           </div>

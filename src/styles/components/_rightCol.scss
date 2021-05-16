@@ -32,6 +32,10 @@
       }
     }
   }
+
+  .header-container {
+    margin-top: 6rem;
+  }
 }
 
 @media (max-width: 1500px) {
@@ -60,16 +64,10 @@
       width: 90% !important;
 
       .header-container {
-        margin-top: 3rem;
-
         .link-col {
           img {
             width: 1.25rem;
           }
-        }
-
-        .center-col {
-          padding-left: 1.25rem;
         }
       }
     }

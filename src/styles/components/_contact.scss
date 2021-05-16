@@ -1,0 +1,46 @@
+@import '../colors';
+
+.contact-container {
+  left: 20%;
+  position: absolute;
+  top: 5rem;
+  z-index: 999;
+
+  & > * {
+    color: $liberty-web-gray-2 !important;
+  }
+
+  .wrapper {
+    .contact-col {
+      align-items: center;
+      display: flex;
+      flex-wrap: wrap;
+      padding: 0 !important;
+
+      & > * {
+        color: $liberty-web-gray-2 !important;
+      }
+
+      .mid-header {
+        margin: 0.5rem;
+      }
+
+      .header {
+        margin-right: 0.5rem;
+      }
+    }
+  }
+}
+
+@media (max-width: 992px) {
+  .contact-container {
+    left: 4.5rem;
+    top: 11rem;
+  }
+}
+
+@media (max-width: 700px) {
+  .contact-container {
+    left: 3.75rem;
+  }
+}

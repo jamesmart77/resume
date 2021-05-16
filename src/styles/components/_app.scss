@@ -9,27 +9,7 @@
   min-height: 100vh;
   width: 100vw;
 
-  .right-img {
-    max-width: 14rem;
-    position: fixed;
-    right: 0;
-    top: 0;
-    z-index: 999;
-  }
-
   .header-container {
-    margin-top: 7rem;
-  }
-}
-
-@media (max-width: 992px) {
-  .app {
-    .right-img {
-      max-width: 11rem !important;
-    }
-
-    .header-container {
-      margin-top: 4rem;
-    }
+    margin-top: 2rem;
   }
 }

@@ -15,7 +15,7 @@ export default function Header() {
         <Col s={12}>
           <Typography type="header2">Martineau</Typography>
         </Col>
-        <Col m={7} s={12}>
+        <Col l={10} s={11}>
           <div className="job-title">
             <Typography type="header6">
               Senior Software Engineer
@@ -24,7 +24,7 @@ export default function Header() {
         </Col>
       </Row>
       <Row className="links-row">
-        <Col m={4} s={3} className="link-col">
+        <Col s={3} className="link-col">
           <a
             href="https://jamesmart77.github.io/portfolio"
             target="_blank"
@@ -34,7 +34,7 @@ export default function Header() {
             <Typography type="subText">Portfolio</Typography>
           </a>
         </Col>
-        <Col m={4} s={5} className="link-col center-col">
+        <Col s={5} className="link-col center-col">
           <a
             href="https://www.linkedin.com/in/jamesrmartineau"
             target="_blank"

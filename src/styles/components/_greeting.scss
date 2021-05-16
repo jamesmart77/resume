@@ -1,0 +1,82 @@
+@import '../colors';
+
+.greeting-container {
+  .wrapper {
+    max-width: 14rem;
+    position: fixed;
+    top: 1rem;
+    right: 0;
+    z-index: 999;
+
+    &:hover, &:focus, &:active {
+      .greeting-img {
+        transition: all 1s;
+        animation: jiggle 0.5s infinite linear;
+      }
+    }
+
+    .greeting-img {
+      cursor: pointer;
+      max-width: 14rem;
+      position: fixed;
+      top: 0;
+      right: 0;
+    }
+
+    .text {
+      background-color: $liberty-web-gray-1;
+      color: white;
+      padding: 0.5rem;
+      max-width: 12rem;
+      position: fixed;
+      right: 0.5rem;
+      top: 14rem;
+      transition: all 0.5s;
+    }
+  }
+}
+
+@media (max-width: 1300px) {
+  .greeting-container {
+    .text {
+      max-width: 10rem !important;
+    }
+  }
+}
+
+@media (max-width: 992px) {
+  .greeting-container {
+    .greeting-img {
+      max-width: 11rem !important;
+    }
+
+    .text {
+      max-width: 25rem !important;
+      top: 2.5rem !important;
+      right: 9rem !important;
+    }
+  }
+}
+
+@media (max-width: 700px) {
+  .greeting-container {
+    .text {
+      max-width: 19.25rem !important;
+      top: 1.5rem !important;
+      left: 1.5rem !important;
+    }
+  }
+}
+
+@keyframes jiggle {
+  /* start at 0deg and this scale size.
+     scale size is repeated here to maintain smooth scaling */
+  0% {transform: rotate(0deg) scale(1.15,1.15);}
+  /* midway rotate 2deg right */
+  20% {transform: rotate(-2deg) scale(1.15,1.15);}
+  /* end rotate -2deg left */
+  40% {transform: rotate(-3deg) scale(1.15,1.15)}
+  60% {transform: rotate(-4deg) scale(1.15,1.15);}
+  80% {transform: rotate(-3deg) scale(1.15,1.15);}
+  100% {transform: rotate(-1deg) scale(1.15,1.15);}
+}

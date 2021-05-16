@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/resume/static/css/main.4343b3b6.chunk.css",
-    "main.js": "/resume/static/js/main.3e32f8b3.chunk.js",
-    "main.js.map": "/resume/static/js/main.3e32f8b3.chunk.js.map",
+    "main.css": "/resume/static/css/main.705b8430.chunk.css",
+    "main.js": "/resume/static/js/main.664a92a9.chunk.js",
+    "main.js.map": "/resume/static/js/main.664a92a9.chunk.js.map",
     "runtime-main.js": "/resume/static/js/runtime-main.bdc9de65.js",
     "runtime-main.js.map": "/resume/static/js/runtime-main.bdc9de65.js.map",
     "static/js/2.c8fb9569.chunk.js": "/resume/static/js/2.c8fb9569.chunk.js",
     "static/js/2.c8fb9569.chunk.js.map": "/resume/static/js/2.c8fb9569.chunk.js.map",
     "index.html": "/resume/index.html",
-    "static/css/main.4343b3b6.chunk.css.map": "/resume/static/css/main.4343b3b6.chunk.css.map",
+    "static/css/main.705b8430.chunk.css.map": "/resume/static/css/main.705b8430.chunk.css.map",
     "static/js/2.c8fb9569.chunk.js.LICENSE.txt": "/resume/static/js/2.c8fb9569.chunk.js.LICENSE.txt",
     "static/media/bitmojiRight.1c78a90c.png": "/resume/static/media/bitmojiRight.1c78a90c.png",
     "static/media/github.56e6f7d0.jpeg": "/resume/static/media/github.56e6f7d0.jpeg"
@@ -16,7 +16,7 @@
   "entrypoints": [
     "static/js/runtime-main.bdc9de65.js",
     "static/js/2.c8fb9569.chunk.js",
-    "static/css/main.4343b3b6.chunk.css",
-    "static/js/main.3e32f8b3.chunk.js"
+    "static/css/main.705b8430.chunk.css",
+    "static/js/main.664a92a9.chunk.js"
   ]
 }

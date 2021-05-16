@@ -42,3 +42,21 @@ U
 %src/components/rightCol/Experience.js,b/e/be2ea768c0acb087a3b5b67a6b746971cfd8670f
 V
 &src/styles/components/_experience.scss,8/5/8596320fd803e4f93889854820891b65e21e0710
+S
+#src/components/leftCol/Education.js,7/0/704c260c3ad6911fe6e1f9200e66e7cc1d0ec0ed
+P
+ src/components/leftCol/Awards.js,0/e/0e80e72f9db0655347dd2ed11d3a395b6a64ea2f
+R
+"src/styles/components/_awards.scss,c/c/cc313a69600586638ea77018f947beaa558459bc
+U
+%src/styles/components/_expertise.scss,4/f/4f459bc1b8eadee5f6cbd98d1078761e06437ba4
+U
+%src/styles/components/_education.scss,9/9/99c32715018532b15522915958bf7506b7ee1c9a
+S
+#src/components/leftCol/Expertise.js,5/8/58216318d3b757709c48eb6f4d858cda76dd5e65
+S
+#src/components/leftCol/Interests.js,1/c/1c31a270538c292987b85d34c8d270c17c1e45f7
+U
+%src/styles/components/_interests.scss,6/d/6d3d9a16ecb43550464ad0619de042273d499085
+S
+#src/styles/components/_leftCol.scss,8/8/887bf454f7f2021fe29e6ab25b666352ea0c15c5

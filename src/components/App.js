@@ -1,12 +1,19 @@
 import React from "react";
 import Resume from "./Resume";
-import bitmojiRight from '../images/bitmojiRight.png';
+import Image from "./Image";
 
 export default function App() {
   return (
     <div className="app">
-      <img src={bitmojiRight} alt="grape vine" className="right-img" />
+      <Image />
       <Resume />
     </div>
   );
 }
+
+// next steps
+// - add audio clip to bitmoji
+// - slide bitmoji out and jiggle (wave)
+// - jiggle bitmoji on tap
+// - add email and phone number
+// - favicon

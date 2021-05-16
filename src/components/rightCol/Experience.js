@@ -1,12 +1,13 @@
 import React from "react";
-import { Typography } from '@lmig/gllt-react-component-library';
+import {Icon, Typography} from '@lmig/gllt-react-component-library';
 import { Row, Col } from 'react-materialize';
 
 export default function Experience() {
   return (
     <div className="experience-container">
       <Row>
-        <Col s={12}>
+        <Col s={12} className="section-header">
+          <Icon type="hardware" size="xs" />
           <Typography type="header5" thin>Experience</Typography>
         </Col>
       </Row>

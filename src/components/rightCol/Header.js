@@ -24,7 +24,7 @@ export default function Header() {
         </Col>
       </Row>
       <Row className="links-row">
-        <Col s={4} className="link-col">
+        <Col m={4} s={3} className="link-col">
           <a
             href="https://jamesmart77.github.io/portfolio"
             target="_blank"
@@ -34,7 +34,7 @@ export default function Header() {
             <Typography type="subText">Portfolio</Typography>
           </a>
         </Col>
-        <Col s={4} className="link-col">
+        <Col m={4} s={5} className="link-col center-col">
           <a
             href="https://www.linkedin.com/in/jamesrmartineau"
             target="_blank"

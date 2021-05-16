@@ -10,14 +10,20 @@ import Interests from "./leftCol/Interests";
 export default function LeftCol() {
   return (
       <Col m={6} s={12} className="left-col pull-m6">
-        <Slide left>
-          <Container width={80} className="col-container">
+        <Container width={80} className="col-container">
+          <Slide left>
             <Education />
+          </Slide>
+          <Slide left>
             <Awards />
+          </Slide>
+          <Slide left>
             <Expertise />
+          </Slide>
+          <Slide left>
             <Interests />
-          </Container>
-        </Slide>
+          </Slide>
+        </Container>
       </Col>
   );
 }

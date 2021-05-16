@@ -9,13 +9,17 @@ import { Slide } from 'react-reveal';
 export default function RightCol() {
   return (
       <Col m={6} s={12} className="right-col push-m6">
-        <Slide right>
-          <Container width={80} className="col-container">
+        <Container width={80} className="col-container">
+          <Slide right>
             <Header />
+          </Slide>
+          <Slide right>
             <Skills />
+          </Slide>
+          <Slide right>
             <Experience />
-          </Container>
-        </Slide>
+          </Slide>
+        </Container>
       </Col>
   );
 }

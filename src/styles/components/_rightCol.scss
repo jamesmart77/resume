@@ -31,6 +31,10 @@
         width: 2rem;
       }
     }
+
+    .center-col > a {
+      justify-content: center !important;
+    }
   }
 
   .header-container {
@@ -47,10 +51,6 @@
             width: 1.5rem;
           }
         }
-
-        .center-col {
-          padding-left: 1.25rem;
-        }
       }
     }
   }
@@ -65,8 +65,8 @@
 
       .header-container {
         .link-col {
-          img {
-            width: 1.25rem;
+          p {
+            font-size: 1rem !important;
           }
         }
       }

@@ -60,3 +60,11 @@ U
 %src/styles/components/_interests.scss,6/d/6d3d9a16ecb43550464ad0619de042273d499085
 S
 #src/styles/components/_leftCol.scss,8/8/887bf454f7f2021fe29e6ab25b666352ea0c15c5
+J
+src/components/Greeting.js,f/8/f80cf6ab46a72cc47f8068fb1a1a50b53857df68
+I
+src/components/Contact.js,c/3/c32782e702f00861cc448d0486cbd52ba69e471b
+T
+$src/styles/components/_greeting.scss,f/5/f50aa42d47cb5a25ad8fa9b3ba093fd41d32009a
+S
+#src/styles/components/_contact.scss,f/4/f441549e064995d8e2be71df3a03061bfeaf39b8

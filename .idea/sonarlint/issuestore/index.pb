@@ -68,3 +68,5 @@ T
 $src/styles/components/_greeting.scss,f/5/f50aa42d47cb5a25ad8fa9b3ba093fd41d32009a
 S
 #src/styles/components/_contact.scss,f/4/f441549e064995d8e2be71df3a03061bfeaf39b8
+S
+#.idea/sonarlint/issuestore/index.pb,9/f/9fe84ebb15faf917b7def6236dba604453cc61e0

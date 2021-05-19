@@ -13,7 +13,7 @@ export default function Education() {
       </Row>
       <Row>
         <Col s={12}>
-          <Typography type="header6"className="header-text">Bachelors of Science in Business Administration</Typography>
+          <Typography type="header6"className="header-text">Bachelor of Science in Business Administration</Typography>
           <Typography type="subText" className="header-text secondary-text" thin>University of New Hampshire</Typography>
           <Typography type="body" className="body-text secondary-text">
             Dual concentrations in Management and Information Systems Management

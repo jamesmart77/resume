@@ -17,8 +17,8 @@ export default function Experience() {
           <Typography type="header6"className="header-text">Software Engineer</Typography>
           <Typography type="subText" className="header-text secondary-text" thin>Liberty Mutual Insurance</Typography>
           <Typography type="body" className="body-text secondary-text">
-            Specialized in MERN full stack for web apps and help lead the team in development,
-            well-architected design principles, innovation disciplines, and reinforcing relationships
+            Specialize in MERN full stack for web apps and help lead the team in development,
+            well-architected design principles, innovation disciplines, mentoring, and reinforcing relationships
             built on trust.
           </Typography>
         </Col>

@@ -19,6 +19,15 @@ export default function Awards() {
           </Typography>
         </Col>
       </Row>
+      <Row>
+        <Col s={12}>
+          <Typography type="header6"className="header-text">Two Time Hackathon Winner</Typography>
+          <Typography type="body" className="body-text secondary-text">
+            Member of squad with back-to-back wins for a real estate utilization app and
+            enterprise career objectives/growth app.
+          </Typography>
+        </Col>
+      </Row>
     </div>
   );
 }

@@ -1,50 +1,48 @@
-import React from "react";
-import { Typography, Icon } from '@lmig/gllt-react-component-library';
-import { Row, Col } from 'react-materialize';
+import { Row, Col, Icon } from 'react-materialize';
 
 export default function Interests() {
   return (
-    <div className="interests-container">
+    <section className="interests-container">
       <Row>
         <Col s={12} className="section-header">
-          <Icon type="favorite" size="xs" />
-          <Typography type="header5" thin>Interests</Typography>
+          <Icon tiny>favorite</Icon>
+          <h5 className="thin">Interests</h5>
         </Col>
       </Row>
       <Row>
         <Col s={4} className="col-wrapper">
           <div className="lg-wrapper">
-            <Icon type="hiking" />
-            <Typography type="subText">Hiking</Typography>
+            <Icon small>directions_walk</Icon>
+            <p className="sub-text">Hiking</p>
           </div>
         </Col>
         <Col s={4} className="col-wrapper">
           <div className="lg-wrapper">
-            <Icon type="sailing" />
-            <Typography type="subText">Boating</Typography>
+            <Icon small>directions_boat</Icon>
+            <p className="sub-text">Boating</p>
           </div>
         </Col>
         <Col s={4} className="col-wrapper">
           <div className="lg-wrapper">
-            <Icon type="menu_book" />
-            <Typography type="subText">Reading</Typography>
+            <Icon small>import_contacts</Icon>
+            <p className="sub-text">Reading</p>
           </div>
         </Col>
       </Row>
       <Row>
         <Col s={6} className="col-wrapper">
           <div className="lg-wrapper">
-            <Icon type="groups" />
-            <Typography type="subText">Friends & Fam</Typography>
+            <Icon small>group</Icon>
+            <p className="sub-text">Friends & Fam</p>
           </div>
         </Col>
         <Col s={6} className="col-wrapper">
           <div className="lg-wrapper">
-            <Icon type="developer_mode" />
-            <Typography type="subText">Coding, even for fun</Typography>
+            <Icon small>developer_mode</Icon>
+            <p className="sub-text">Coding, even for fun 🤓</p>
           </div>
         </Col>
       </Row>
-    </div>
+    </section>
   );
 }

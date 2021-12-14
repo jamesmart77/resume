@@ -5,10 +5,10 @@ import Contact from "./Contact";
 
 export default function App() {
   return (
-    <div className="app">
+    <main className="app">
       <Greeting />
       <Contact />
       <Resume />
-    </div>
+    </main>
   );
 }

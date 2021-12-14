@@ -7,7 +7,7 @@
   z-index: 999;
 
   & > * {
-    color: $liberty-web-gray-2 !important;
+    color: $web-gray-2 !important;
   }
 
   .wrapper {
@@ -18,7 +18,11 @@
       padding: 0 !important;
 
       & > * {
-        color: $liberty-web-gray-2 !important;
+        color: $web-gray-2 !important; 
+      }
+
+      .info {
+        font-weight: 300;
       }
 
       .mid-header {
@@ -26,7 +30,7 @@
       }
 
       .header {
-        margin-right: 0.5rem;
+        margin-right: 0.5rem !important;
       }
     }
   }

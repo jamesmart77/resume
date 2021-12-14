@@ -1,8 +1,6 @@
-import React from "react";
-import { Container } from '@lmig/gllt-react-component-library';
+import { Row, Container } from 'react-materialize';
 import RightCol from "./RightCol";
 import LeftCol from "./LeftCol";
-import { Row } from 'react-materialize';
 
 export default function Resume() {
   return (

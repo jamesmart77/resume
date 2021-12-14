@@ -1,51 +1,50 @@
-import React from "react";
-import {Icon, Typography} from '@lmig/gllt-react-component-library';
-import { Row, Col } from 'react-materialize';
+import { Row, Col, Icon } from 'react-materialize';
 
 export default function Experience() {
   return (
-    <div className="experience-container">
+    <section className="experience-container">
       <Row>
         <Col s={12} className="section-header">
-          <Icon type="hardware" size="xs" />
-          <Typography type="header5" thin>Experience</Typography>
+          <Icon tiny>build</Icon>
+          <h5 className="thin">Experience</h5>
         </Col>
       </Row>
       <Row>
         <Col s={12}>
-          <Typography type="subText" thin className="secondary-text">2018 - Present</Typography>
-          <Typography type="header6"className="header-text">Software Engineer</Typography>
-          <Typography type="subText" className="header-text secondary-text" thin>Liberty Mutual Insurance</Typography>
-          <Typography type="body" className="body-text secondary-text">
-            Specialize in MERN full stack for web apps and help lead the team in development,
+          <p className="sub-text secondary-text">2018 - Present</p>
+          <h6 className="header-text">Software Engineer</h6>
+          <p className="sub-text header-text secondary-text">Liberty Mutual Insurance</p>
+          <p className="body-text secondary-text">
+            Specialize in Postgres, Express.Js, React, and NodeJs full stack for web apps while helping lead the team in development,
             well-architected design principles, innovation disciplines, mentoring, and reinforcing relationships
-            built on trust.
-          </Typography>
+            built on trust. Promotion path: Software Engineer, to Senior, to Principal.
+          </p>
         </Col>
       </Row>
       <Row>
         <Col s={12}>
-          <Typography type="subText" thin className="secondary-text">2015 - 2018</Typography>
-          <Typography type="header6"className="header-text">IT Project Coordinator / Data Analyst</Typography>
-          <Typography type="subText" className="header-text secondary-text" thin>Liberty Mutual Insurance</Typography>
-          <Typography type="body" className="body-text secondary-text">
+          <p className="sub-text secondary-text">2015 - 2018</p>
+          <h6 className="header-text">IT Project Coordinator / Data Analyst</h6>
+          <p className="sub-text header-text secondary-text">Liberty Mutual Insurance</p>
+          <p className="body-text secondary-text">
             Automated Liberty Gateway non-employee management process and assisted in automation of Supplier
             Relationship management processes. Also worked to support organization's agile transformation and
             present metrics for data driven decisions.
-          </Typography>
+          </p>
         </Col>
       </Row>
       <Row>
         <Col s={12}>
-          <Typography type="subText" thin className="secondary-text">2013-2015</Typography>
-          <Typography type="header6"className="header-text">Project Analyst</Typography>
-          <Typography type="subText" className="header-text secondary-text" thin>Bottomline Technologies</Typography>
-          <Typography type="body" className="body-text secondary-text">
+          <p className="sub-text secondary-text">2013-2015</p>
+          <h6 className="header-text">Project Analyst / Quality Assurance</h6>
+          <p className="sub-text header-text secondary-text">Bottomline Technologies</p>
+          <p className="body-text secondary-text">
             Worked with Digital Banking clients for enterprise software implementations and configurations. Also
-            made concerted efforts to automate resource management reporting for program lines.
-          </Typography>
+            made concerted efforts to automate resource management reporting for program lines using VBA. Constructed
+            technical documentation for clients and ran creative testing scripts to ensure product quality.
+          </p>
         </Col>
       </Row>
-    </div>
+    </section>
   );
 }

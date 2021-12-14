@@ -1,6 +1,4 @@
-import React from "react";
-import { Container } from '@lmig/gllt-react-component-library';
-import { Col } from 'react-materialize';
+import { Col, Container } from 'react-materialize';
 import Header from './rightCol/Header';
 import Skills from './rightCol/Skills';
 import Experience from './rightCol/Experience';

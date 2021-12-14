@@ -1,5 +1,3 @@
-import React from "react";
-import { Typography } from '@lmig/gllt-react-component-library';
 import { Row, Col } from 'react-materialize';
 import SkillBar from "react-skillbars";
 
@@ -42,7 +40,7 @@ export default function Skills() {
     <div className="skills-container">
       <Row>
         <Col s={12}>
-          <Typography type="header5" thin>Skills</Typography>
+          <h5>Skills</h5>
         </Col>
       </Row>
       <Row>

@@ -1,12 +1,12 @@
 @import '../colors';
 
 .right-col {
-  background-color: $liberty-web-gray-5;
+  background-color: $web-gray-5;
   display: flex;
   flex: 1 0 auto;
 
   .job-title {
-    background-color: $liberty-blue-90;
+    background-color: $blue-90;
     padding: 0.5rem 1rem;
 
     h6 {

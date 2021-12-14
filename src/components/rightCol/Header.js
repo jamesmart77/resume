@@ -1,5 +1,3 @@
-import React from "react";
-import { Typography } from '@lmig/gllt-react-component-library';
 import { Row, Col } from 'react-materialize';
 import linkedInImg from '../../images/linkedIn.png';
 import githubImg from '../../images/github.jpeg';
@@ -10,28 +8,28 @@ export default function Header() {
     <div className="header-container">
       <Row>
         <Col s={12}>
-          <Typography type="header3" thin>James</Typography>
+          <h3 className="thin">James</h3>
         </Col>
         <Col s={12}>
-          <Typography type="header2">Martineau</Typography>
+          <h2>Martineau</h2>
         </Col>
         <Col l={10} s={11}>
           <div className="job-title">
-            <Typography type="header6">
-              Senior Software Engineer
-            </Typography>
+            <h6>
+              Principal Software Engineer
+            </h6>
           </div>
         </Col>
       </Row>
       <Row className="links-row">
-        <Col s={3} className="link-col">
+        <Col xl={3} l={4} m={5} s={3} className="link-col">
           <a
             href="https://jamesmart77.github.io/portfolio"
             target="_blank"
             rel="noreferrer noopener"
           >
-            <img src={portfolioImg} alt="" className="link-icon" />
-            <Typography type="subText">Portfolio</Typography>
+            <img src={portfolioImg} alt="portfolio" className="link-icon" />
+            <p className="sub-text">Portfolio</p>
           </a>
         </Col>
         <Col s={5} className="link-col center-col">
@@ -40,8 +38,8 @@ export default function Header() {
             target="_blank"
             rel="noreferrer noopener"
           >
-            <img src={linkedInImg} alt="" className="link-icon" />
-            <Typography type="subText">jamesmartineau</Typography>
+            <img src={linkedInImg} alt="LinkedIn" className="link-icon" />
+            <p className="sub-text">jamesmartineau</p>
           </a>
         </Col>
         <Col s={4} className="link-col">
@@ -50,8 +48,8 @@ export default function Header() {
             target="_blank"
             rel="noreferrer noopener"
           >
-            <img src={githubImg} alt="" className="link-icon" />
-            <Typography type="subText">jamesmart77</Typography>
+            <img src={githubImg} alt="github" className="link-icon" />
+            <p className="sub-text">jamesmart77</p>
           </a>
         </Col>
       </Row>

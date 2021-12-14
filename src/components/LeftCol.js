@@ -1,6 +1,4 @@
-import React from "react";
-import { Col } from 'react-materialize';
-import {Container} from "@lmig/gllt-react-component-library";
+import { Col, Container } from 'react-materialize';
 import {Slide} from "react-reveal";
 import Education from "./leftCol/Education";
 import Awards from "./leftCol/Awards";

@@ -1,0 +1,28 @@
+@import '../colors';
+
+.pdf-btn {
+  background-color: $dark-teal;
+  display: flex;
+  justify-content: center;
+  margin: 1rem 0 0 1rem;
+  position: absolute;
+  transition: all 1s;
+  width: 20rem;
+  
+  i {
+    margin-right: 0.5rem;
+  }
+
+  a {
+    color: $white;
+  }
+}
+
+@media (max-width: 600px) {
+  .pdf-btn {
+    position: relative;
+    margin-left: 2rem !important;
+    margin-bottom: -2rem;
+    transition: all 1s;
+  }
+}

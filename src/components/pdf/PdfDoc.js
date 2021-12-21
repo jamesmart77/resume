@@ -146,9 +146,9 @@ const PdfContent = () => {
               Hey there! My name is James and I love being a developer!
               Why is that? Well, hopefully that'll be clear by my resume, but the gist
               is that it's all about the people, culture, and being able to create 
-              beautiful solutions. Go ahread and give my resume a gander for some more 
+              beautiful solutions. Go ahead and give my resume a gander for some more 
               info. Below is the "bland" version. If you want to see it in a more fun and 
-              creative way above, click the link below!
+              creative way, click the link below!
             </Text>  
             <Link 
               src="https://jamesmart77.github.io/resume" 
@@ -167,7 +167,7 @@ const PdfContent = () => {
             React, Redux, NodeJs, ExpressJs, Postgres, AWS, Java, Spring, TDD, Micro Services
           </Text>
           <Text style={styles.contentSection.tech.subText}>
-            For more background and project examples, please see my 
+            For more tech expertise and project examples, please see my 
             {' '}
             <Link
               src="https://jamesmart77.github.io/portfolio"  
@@ -191,7 +191,7 @@ const PdfContent = () => {
               { paddingBottom: 10, paddingTop: 3 },
             ]}>Liberty Mutual Insurance</Text>
             <Text style={styles.general}>
-              Specialize in Postgres, Express.Js, React, and NodeJs full stack for web apps while helping lead the team in development,
+              Specialize in Postgres, Express.Js, React, and NodeJs full stack as well as Spring Boot for web apps while helping lead the team in development,
               well-architected design principles, innovation disciplines, mentoring, and reinforcing relationships
               built on trust. Promotion path has been: Software Engineer, to Senior, to Principal.
             </Text>
